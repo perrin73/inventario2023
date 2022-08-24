@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Maxima 2023</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class=" navbar navbar-expand-md bg-primary">
+    <div id="dentro_navbar" class="container-fluid ">
+      <a id="logo" class="navbar-brand text-bg-primary" href="#"></a>
+      <input id="busca" class="form-control me-2" type="search" placeholder="Buscar sitio..." aria-label="Search">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-bg-primary" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-bg-primary" href="#">Cristian Garate</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-bg-primary" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Enlaces
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item " href="#">Inventario</a></li>
+              <li><a class="dropdown-item" href="#">Reportes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Topologico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-bg-primary">Cerrar sesión</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar -->
+  <!-- ## DEFINICION DE LOS TABS SIN CONTENIDO PORQUE VA EN LA TORTA## -->
+  <div id="navtabs" class="container responsive-tabs nav-justified">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a id="tab-A" href="#pane-A" class="nav-link active" data-bs-toggle="tab" role="tab">Emplazamiento</a>
+      </li>
+      <li class="nav-item">
+        <a id="tab-B" href="#pane-B" class="nav-link" data-bs-toggle="tab" role="tab">Energía</a>
+      </li>
+      <li class="nav-item">
+        <a id="tab-C" href="#pane-C" class="nav-link" data-bs-toggle="tab" role="tab">Móvil</a>
+      </li>
+      <li class="nav-item">
+        <a id="tab-D" href="#pane-D" class="nav-link" data-bs-toggle="tab" role="tab">Transmisión</a>
+      </li>
+    </ul>
+    <!-- ## COMIENZO LA TORTA Y SU CONTENIDO ## -->
+    <div id="content" class="tab-content" role="tablist">
+      <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+        <div class="card-header" role="tab" id="heading-A">
+          <h5 class="mb-0 text-center">
+            <a data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
+              Emplazamiento
+            </a>
+          </h5>
+        </div>
+        <div id="collapse-A" class="collapse show" data-bs-parent="#content" role="tabpanel"
+          aria-labelledby="heading-A">
+          
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <!-- comienzo del contenido de emplazamiento-->
+                <div id="mapa" class="card text-bg-primary ">
+                  <div class="card-header">Enviar por wsap</div>
+                  <div class="card-body">
+                    <h5 class="card-title">MAPA API GOOGLE</h5>
+                    <p class="card-text">contenido mapa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <table class="table table-bordered table-sm ">
+                  <tr>
+                    <td>Nombre</td>
+                    <td>Placilla</td>
+                  </tr>
+                  <tr>
+                    <td>Nemonico</td>
+                    <td>PLCG1</td>
+                  </tr>
+                  <tr>
+                    <td>ID Maxima</td>
+                    <td>3267</td>
+                  </tr>
+                  <tr>
+                    <td>Rut</td>
+                    <td>0510101974</td>
+                  </tr>
+                  <tr>
+                    <td>Region</td>
+                    <td>05</td>
+                  </tr>
+                  <tr>
+                    <td>Comuna</td>
+                    <td>Valparaiso</td>
+                  </tr>
+                  <tr>
+                    <td>Cluster</td>
+                    <td>QUINTA COSTA SUR</td>
+                  </tr>
+                  <tr>
+                    <td>Tipo</td>
+                    <td>Indoor,Urbano</td>
+                  </tr>
+                  <tr>
+                    <td>Macrositio</td>
+                    <td>Movistar</td>
+                  </tr>
+                  <tr>
+                    <td>Cat. SUBTEL</td>
+                    <td>N1</td>
+                  </tr>
+                  <tr>
+                    <td>Area Operativa</td>
+                    <td>VALPARAISO COSTA</td>
+                  </tr>
+                  <tr>
+                    <td>Direccion</td>
+                    <td>Ruta 68 s/n con camino la Polvora</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <table class="table table-bordered table-sm">
+                  <tr>
+                    <td>Nombre</td>
+                    <td>Placilla</td>
+                  </tr>
+                  <tr>
+                    <td>Nemonico</td>
+                    <td>PLCG1</td>
+                  </tr>
+                  <tr>
+                    <td>ID Maxima</td>
+                    <td>3267</td>
+                  </tr>
+                  <tr>
+                    <td>Rut</td>
+                    <td>0510101974</td>
+                  </tr>
+                  <tr>
+                    <td>Region</td>
+                    <td>05</td>
+                  </tr>
+                  <tr>
+                    <td>Comuna</td>
+                    <td>Valparaiso</td>
+                  </tr>
+                  <tr>
+                    <td>Cluster</td>
+                    <td>QUINTA COSTA SUR</td>
+                  </tr>
+                  <tr>
+                    <td>Tipo</td>
+                    <td>Indoor,Urbano</td>
+                  </tr>
+                  <tr>
+                    <td>Macrositio</td>
+                    <td>Movistar</td>
+                  </tr>
+                  <tr>
+                    <td>Cat. SUBTEL</td>
+                    <td>N1</td>
+                  </tr>
+                  <tr>
+                    <td>Area Operativa</td>
+                    <td>VALPARAISO COSTA</td>
+                  </tr>
+                  <tr>
+                    <td>Direccion</td>
+                    <td>Ruta 68 s/n con camino la Polvora</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <table class="table table-bordered table-sm ">
+
+                  <tr>
+                    <td>Chequeo</td>
+                    <td>23-08-2022</td>
+                  </tr>
+                  <tr>
+                    <td>Torrero</td>
+                    <td>ATC</td>
+                  </tr>
+                  <tr>
+                    <td>Autorización</td>
+                    <td>SI</td>
+                  </tr>
+                  <tr>
+                    <td>M2 Sitio</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td>Colocalizado</td>
+                    <td>NO</td>
+                  </tr>
+                  <tr>
+                    <td>Llaves</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>Camino</td>
+                    <td>TIERRA</td>
+                  </tr>
+                  <tr>
+                    <td>Acceso</td>
+                    <td>4X4</td>
+                  </tr>
+                  <tr>
+                    <td>Latitud</td>
+                    <td>-33.102894</td>
+                  </tr>
+                  <tr>
+                    <td>Longitud</td>
+                    <td>-71.55389</td>
+                  </tr>
+                  <tr>
+                    <td>Vecino</td>
+                    <td>Claro</td>
+                  </tr>
+                  <tr>
+                    <td>Información</td>
+                    <td>Llamar a contacto al llegar a puerta</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+      <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+        <div class="card-header" role="tab" id="heading-B">
+          <h5 class="mb-0 text-center">
+            <a class="collapsed" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="false"
+              aria-controls="collapse-B">
+              Energía
+            </a>
+          </h5>
+        </div>
+        <div id="collapse-B" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-B">
+          <div class="card-body">Contenido energía , acá van los climas también</div>
+        </div>
+      </div>
+
+      <div id="pane-C" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
+        <div class="card-header" role="tab" id="heading-C">
+          <h5 class="mb-0 text-center">
+            <a data-bs-toggle="collapse" href="#collapse-C" aria-expanded="true" aria-controls="collapse-C">
+              Móvil
+            </a>
+          </h5>
+        </div>
+        <div id="collapse-C" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-C">
+          <div class="card-body">Contenido Móvil con sus bandas y sectores que permitan tener una relación de consumo</div>
+        </div>
+
+      </div>
+      <div id="pane-D" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-D">
+        <div class="card-header" role="tab" id="heading-D">
+          <h5 class="mb-0 text-center">
+            <a data-bs-toggle="collapse" href="#collapse-D" aria-expanded="true" aria-controls="collapse-C">
+              Transmisión
+            </a>
+          </h5>
+        </div>
+        <div id="collapse-D" class="collapse" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-D">
+          <div class="card-body">Contenido de Transmisión para desarrollo futuro no se considera en este desarrollo</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

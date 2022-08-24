@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+}
+
+
+.table {
+  margin:10px;
+}
+
+#mapa {
+  margin: 10px;
+}
+
+#navtabs {
+  max-width: 98%;
+}
+
+#dentro_navbar {
+  padding: 0px 5px;
+  
+}
+
+#busca {
+  width: 50%;
+  margin-left: 5%;
+  border-radius: 3px;
+
+}
+
+.card-header>h5>a {
+  text-decoration: none;
+
+}
+
+body>nav>div>button {
+  filter: grayscale(1) invert(1);
+}
+
+.responsive-tabs {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.responsive-tabs .nav-tabs {
+  display: none;
+}
+
+/*            MEDIA QUERY PANTALLA GRANDE              */
+
+@media (min-width: 768px) {
+  .responsive-tabs .nav-tabs {
+    display: flex;
+  }
+
+  .responsive-tabs .card {
+    border: none;
+  }
+
+  div[id^="heading-"] {
+    display: none;
+  }
+
+  /*
+  .responsive-tabs .card .card-header { *esta declaración fue reemplazada con la de arriba para liberar los cards
+    display: none;
+
+  }
+  */
+  .responsive-tabs .card .collapse {
+    display: block;
+
+  }
+
+  #busca {
+    width: 40%;
+    border-radius: 3px;
+  }
+
+  #logo {
+    height: 40px;
+    width: 200px;
+    background-image: url(../img/newmaxima.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+/*            MEDIA QUERY PANTALLA CHICA              */
+
+@media (max-width: 767px) {
+  .responsive-tabs .tab-pane {
+    display: block !important;
+    opacity: 1;
+
+  }
+
+  #logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/logomaxima.svg);
+    background-size: contain;
+  }
+
+  #busca {
+    width: 61%;
+    margin-left: 0px;
+  }
+
+
+}
