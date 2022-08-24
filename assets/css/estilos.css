@@ -1,14 +1,11 @@
 body {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
-.table {
-  margin:10px;
-}
-
-#mapa {
-  margin: 10px;
+.divsempla {
+  margin: 5px 0px;
+  
 }
 
 #navtabs {
