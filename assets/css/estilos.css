@@ -63,7 +63,7 @@ body>nav>div>button {
 
   }
   */
-  .responsive-tabs .card .collapse {
+  .responsive-tabs .card > .collapse  {
     display: block;
 
   }
