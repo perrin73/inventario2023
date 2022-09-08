@@ -272,8 +272,8 @@
 
           <!-- DESDE AQUÍ PRIMER OBJETO-->
           
-            <div class="card-body">Contenido energía , acá van los climas también<br>
-              
+            <div class="card-body">
+            <div class="row"> 
               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
                 <ul class="list-group" role="button" data-bs-toggle="collapse" data-bs-target="#esconde" aria-expanded="false" aria-controls="esconde">
                   <li class="list-group-item text-bg-success text-center" aria-current="true">EMPALME ELECTRICO</li>
@@ -320,7 +320,304 @@
   
                 </ul>
               </div>
-              
+              <!-- hasta acá empalme e inicio tablero AC-->
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
+                
+                  <ul class="list-group">
+                    <li class="list-group-item text-bg-danger text-center" aria-current="true">TABLERO AC</li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>Trifasico</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad protección<span>40A</span></li>
+                    <li class="list-group-item d-flex justify-content-between  border-bottom-0" role="button" data-bs-toggle="collapse" data-bs-target=".meds">Mediciones<i class="bi bi-chevron-down"></i></li>
+                    <div class="meds collapse ">
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Consumo fase 1<span>20 A</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Consumo fase 2<span>10 A</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Consumo fase 3<span>15 A</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Tension neutro-fase 1<span>220 V</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Tension neutro-fase 2<span>220 V</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Tension neutro-fase 3<span>220 V</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Tension tierra-fase 1<span>220 V</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Tension tierra-fase 2<span>220 V</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center border-bottom-0">Tension tierra-fase 3<span>220 V</span></li>
+                    </div>
+                    <!-- Comienzo objetos circuitos hijos -->
+                    <li class="list-group-item">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#circuitos" aria-expanded="true" aria-controls="collapCargas"> Circuitos </button>
+                        <span class="badge bg-danger rounded-pill">4</span>
+                      </div>
+                      <div id="circuitos" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <br>
+                          <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 1</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Protección <span>Trifasica </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad <span>63A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>Vacante</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>38 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                          <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 2</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Protección <span>Trifasica </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad <span>63A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>Clima</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>38 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                          <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 3</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Protección <span>Trifasica </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad <span>63A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>Vacante</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>38 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                          <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 4</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Protección <span>Trifasica </span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad <span>63A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>Vacante</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>38 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">    
+                  <ul class="list-group">
+                    <li class="list-group-item active text-center" aria-current="true">PLANTA DE ENERGIA</li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Eltek</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>1500</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Consumo DC<span>55 A</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Tensión a tierra<span>53.4 V</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">DCDU adicionales a planta<span>1</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-bottom-0"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#rectificadores">Rectificadores</button><span class="badge bg-primary rounded-pill">4</span></li>
+                    <div id="rectificadores" class="collapse ">
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Marca Rectificadores<span>Eltek</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Modelo Rectificadores<span>Flatpack 1500</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Potencia Rectificadores<span>1500</span></li>
+                      <li class=" list-group-item d-flex justify-content-between align-items-center">Potencia total Rectificadores<span>6000</span></li>
+                    
+                    </div>
+                    <!-- Comienzo de objetos baterias hijos -->
+                    <li class="list-group-item"><div class="d-flex justify-content-between align-items-center">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bancosbateria" aria-expanded="true" aria-controls="collapseOne">
+                        Bancos de baterías
+                      </button><span class="badge bg-warning rounded-pill">4</span></div>
+                    <div id="bancosbateria" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                      <br>
+                      <ul class="list-group">
+                      <li class="list-group-item text-bg-warning lh-1" aria-current="true">Banco de baterías 1</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Marca<span>Narada</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Modelo<span>6GFM120</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Capacidad<span>120 A</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Tipo<span>Litio</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Fecha inst<span>24-08-2022</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Seguridad<span>SI</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Tipo Seguridad<span>barra</span></li>
+                      </ul>
+                      <br>
+                      <ul class="list-group">
+                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 2</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Narada</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>6GFM120</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>120 A</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>Litio</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Fecha inst<span>24-08-2022</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Seguridad<span>SI</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Seguridad<span>barra</span></li>
+                      </ul>
+                      <br>
+                      <ul class="list-group">
+                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 3</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Huawei</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>HG100</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>100 A</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>Litio</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Fecha inst<span>24-08-2022</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Seguridad<span>SI</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Seguridad<span>barra</span></li>
+                      </ul>
+                      <br>
+                      <ul class="list-group">
+                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 4</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Huawei</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>HG100</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>100 A</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>Litio</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Fecha inst<span>24-08-2022</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Seguridad<span>SI</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Seguridad<span>barra</span></li>
+                      </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Comienzo objetos protecciones hijos -->
+                  <li class="list-group-item"><div class="d-flex justify-content-between align-items-center">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#proteccionesplanta" aria-expanded="true" aria-controls="proteccionesplanta">
+                    Protecciones
+                  </button><span class="badge bg-success rounded-pill">4</span></div>
+                <div id="proteccionesplanta" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                  <br>
+                  <ul class="list-group">
+                  <li class="list-group-item text-bg-success" aria-current="true">Protección 1</li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>63A</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 4G</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">LLVD/BLVD<span>LLVD</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"># LVD<span>1</span></li>
+                  
+                  </ul>
+                  <br>
+                  <ul class="list-group">
+                  <li class="list-group-item text-bg-success" aria-current="true">Protección 2</li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>63A</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 5G</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">LLVD/BLVD<span>BLVD</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"># LVD<span>1</span></li>
+                  
+                  </ul>
+                  <br>
+                  <ul class="list-group">
+                  <li class="list-group-item text-bg-success" aria-current="true">Protección 3</li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>40A</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 3G</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">LLVD/BLVD<span>LLVD</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"># LVD<span>2</span></li>
+                  
+                  </ul>
+                  <br>
+                  <ul class="list-group">
+                  <li class="list-group-item text-bg-success" aria-current="true">Protección 4</li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>fusible</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>10A</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>PTN</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">LLVD/BLVD<span>LLVD</span></li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center"># LVD<span>2</span></li>
+                  
+                  </ul>
+                  </li>
+                  </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
+      
+                    <ul class="list-group">
+                      <li class="list-group-item text-bg-danger text-center" aria-current="true">TABLERO DC</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>distr/conex</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Numero de terminales<span>16</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo de protecciones<span>fusible tipo</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad disponible<span>250A</span></li>
+                      
+                      <!-- Comienzo objetos circuitos hijos -->
+                      <li class="list-group-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#circuitoscc" aria-expanded="true" aria-controls="collapCargas"> Circuitos conectados </button>
+                          <span class="badge bg-danger rounded-pill">4</span>
+                        </div>
+                        <div id="circuitoscc" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <br>
+                            <ul class="list-group">
+                              <li class="list-group-item text-bg-danger" aria-current="true">Circuito 1</li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad protección <span>10A</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>OSN3500 1</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>3 A</span>
+                              </li>
+                            </ul>
+                            <br>
+                            <ul class="list-group">
+                              <li class="list-group-item text-bg-danger" aria-current="true">Circuito 2</li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad protección <span>10A</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>OSN3500 2</span>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>3 A</span>
+                              </li>
+                            </ul>
+                            <br>
+                            <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 3</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad protección <span>6A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>ROUTER PE40VALP01</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>2 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                          <ul class="list-group">
+                            <li class="list-group-item text-bg-danger" aria-current="true">Circuito 16</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad protección <span>20A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Carga conectada <span>SHELF GPON1</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Consumo <span>10 A</span>
+                            </li>
+                          </ul>
+                          <br>
+                            
+                            
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
+                    <ul class="list-group" role="button" data-bs-toggle="collapse" data-bs-target="#escondegrupo">
+                    <li class="list-group-item text-bg-info text-center" aria-current="true">GRUPO ELECTROGENO</li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">GGEE en sitio<span>SI</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Propietario GGEE<span>Telefonica</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">GGEE compartido con operadoras<span>NO</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>DMT</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>500</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Potencia KVA<span>55</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Tipo conexión<span>trifasica</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Tiene Calefactor<span>SI</span></li>
+                
+                    <div id="escondegrupo" class="collapse">
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-top-0">Capacidad calefactor<span>500W</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">conectado con TTA<span>SI</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad estanque<span>500 L</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Combustible en estanque<span>300 L</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Fecha lectura estanque<span>01-09-2022</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad estanque auxiliar<span>200 L</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Instalación bateria de arranque<span>01-09-2022</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Horometro<span>1202</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Fecha horometro<span>01-09-2022</span></li>
+                    <li class="list-group-item ">
+                      <ul class="list-group">
+                        <li class="list-group-item text-bg-info" aria-current="true">Comentarios</li>
+                        <li class="list-group-item">Cambiar mangueras de refrigerante a las 1000 hrs  </li>
+                        
+                      </ul>
+                      <br>
+                    </li>
+                    </div>
+                    
+                  </ul>
+                    </div>
+            </div><!--cierre de row energía-->
 
             </div>
             
