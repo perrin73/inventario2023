@@ -2,6 +2,11 @@ body {
   font-size: 14px;
 }
 
+.redondea {
+
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
 
 .divsempla {
   margin: 5px 0px;
