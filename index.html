@@ -341,8 +341,8 @@
                     </div>
                     <!-- Comienzo objetos circuitos hijos -->
                     <li class="list-group-item">
-                      <div class="d-flex justify-content-between align-items-center">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#circuitos" aria-expanded="true" aria-controls="collapCargas"> Circuitos </button>
+                      <div class="d-flex justify-content-between align-items-center" role="button" data-bs-toggle="collapse" data-bs-target="#circuitos">
+                         Circuitos 
                         <span class="badge bg-danger rounded-pill">4</span>
                       </div>
                       <div id="circuitos" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -401,13 +401,13 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-2">    
                   <ul class="list-group">
-                    <li class="list-group-item active text-center" aria-current="true">PLANTA DE ENERGIA</li>
+                    <li class="list-group-item text-bg-primary text-center" aria-current="true">PLANTA DE ENERGIA</li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Eltek</span></li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>1500</span></li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">Consumo DC<span>55 A</span></li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">Tensión a tierra<span>53.4 V</span></li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">DCDU adicionales a planta<span>1</span></li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center border-bottom-0"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#rectificadores">Rectificadores</button><span class="badge bg-primary rounded-pill">4</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center border-bottom-0"role="button" data-bs-toggle="collapse" data-bs-target="#rectificadores">Rectificadores<span class="badge bg-primary rounded-pill">4</span></li>
                     <div id="rectificadores" class="collapse ">
                       <li class=" list-group-item d-flex justify-content-between align-items-center">Marca Rectificadores<span>Eltek</span></li>
                       <li class=" list-group-item d-flex justify-content-between align-items-center">Modelo Rectificadores<span>Flatpack 1500</span></li>
@@ -416,15 +416,12 @@
                     
                     </div>
                     <!-- Comienzo de objetos baterias hijos -->
-                    <li class="list-group-item"><div class="d-flex justify-content-between align-items-center">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bancosbateria" aria-expanded="true" aria-controls="collapseOne">
-                        Bancos de baterías
-                      </button><span class="badge bg-warning rounded-pill">4</span></div>
+                    <li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#bancosbateria"><div role="button" class="d-flex justify-content-between align-items-center">Bancos de baterías<span class="badge bg-primary rounded-pill">4</span></div>
                     <div id="bancosbateria" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      
                       <br>
                       <ul class="list-group">
-                      <li class="list-group-item text-bg-warning lh-1" aria-current="true">Banco de baterías 1</li>
+                      <li class="list-group-item text-bg-primary lh-1" aria-current="true">Banco de baterías 1</li>
                       <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Marca<span>Narada</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Modelo<span>6GFM120</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center lh-1">Capacidad<span>120 A</span></li>
@@ -435,7 +432,7 @@
                       </ul>
                       <br>
                       <ul class="list-group">
-                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 2</li>
+                      <li class="list-group-item text-bg-primary" aria-current="true">Banco de baterías 2</li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Narada</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>6GFM120</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>120 A</span></li>
@@ -446,7 +443,7 @@
                       </ul>
                       <br>
                       <ul class="list-group">
-                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 3</li>
+                      <li class="list-group-item text-bg-primary" aria-current="true">Banco de baterías 3</li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Huawei</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>HG100</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>100 A</span></li>
@@ -457,7 +454,7 @@
                       </ul>
                       <br>
                       <ul class="list-group">
-                      <li class="list-group-item text-bg-warning" aria-current="true">Banco de baterías 4</li>
+                      <li class="list-group-item text-bg-primary" aria-current="true">Banco de baterías 4</li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Huawei</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>HG100</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>100 A</span></li>
@@ -466,19 +463,19 @@
                       <li class="list-group-item d-flex justify-content-between align-items-center">Seguridad<span>SI</span></li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">Tipo Seguridad<span>barra</span></li>
                       </ul>
-                      </div>
+                      
                     </div>
                   </li>
                   <!-- Comienzo objetos protecciones hijos -->
-                  <li class="list-group-item"><div class="d-flex justify-content-between align-items-center">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#proteccionesplanta" aria-expanded="true" aria-controls="proteccionesplanta">
+                  <li class="list-group-item"><div class="d-flex justify-content-between align-items-center" role="button" data-bs-toggle="collapse" data-bs-target="#proteccionesplanta">
+                  
                     Protecciones
-                  </button><span class="badge bg-success rounded-pill">4</span></div>
+                  <span class="badge bg-primary rounded-pill">4</span></div>
                 <div id="proteccionesplanta" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                   <br>
                   <ul class="list-group">
-                  <li class="list-group-item text-bg-success" aria-current="true">Protección 1</li>
+                  <li class="list-group-item text-bg-primary" aria-current="true">Protección 1</li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>63A</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 4G</span></li>
@@ -488,7 +485,7 @@
                   </ul>
                   <br>
                   <ul class="list-group">
-                  <li class="list-group-item text-bg-success" aria-current="true">Protección 2</li>
+                  <li class="list-group-item text-bg-primary" aria-current="true">Protección 2</li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>63A</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 5G</span></li>
@@ -498,7 +495,7 @@
                   </ul>
                   <br>
                   <ul class="list-group">
-                  <li class="list-group-item text-bg-success" aria-current="true">Protección 3</li>
+                  <li class="list-group-item text-bg-primary" aria-current="true">Protección 3</li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>breaker</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>40A</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>Nodo 3G</span></li>
@@ -508,7 +505,7 @@
                   </ul>
                   <br>
                   <ul class="list-group">
-                  <li class="list-group-item text-bg-success" aria-current="true">Protección 4</li>
+                  <li class="list-group-item text-bg-primary" aria-current="true">Protección 4</li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>fusible</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Capacidad<span>10A</span></li>
                   <li class="list-group-item d-flex justify-content-between align-items-center">Equipo conectado<span>PTN</span></li>
@@ -530,8 +527,8 @@
                       
                       <!-- Comienzo objetos circuitos hijos -->
                       <li class="list-group-item">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#circuitoscc" aria-expanded="true" aria-controls="collapCargas"> Circuitos conectados </button>
+                        <div class="d-flex justify-content-between align-items-center" role="button" data-bs-toggle="collapse" data-bs-target="#circuitoscc">
+                           Circuitos conectados 
                           <span class="badge bg-danger rounded-pill">4</span>
                         </div>
                         <div id="circuitoscc" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -617,6 +614,21 @@
                     
                   </ul>
                     </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-2">
+    
+                      <ul class="list-group" >
+                      <li class="list-group-item text-bg-secondary text-center" aria-current="true">CLIMA</li>
+                      
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Tipo<span>mochila</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Marca<span>Anwo</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Modelo<span>A-20000</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">BTU<span>20000</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Consumo máximo<span>20A</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Temperatura ajustada<span>23°</span></li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">Estado<span>?</span></li>
+                      
+                    </ul>
+                      </div> 
             </div><!--cierre de row energía-->
 
             </div>
